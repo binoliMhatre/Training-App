@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Heart Rate App/ScatterPlotController.swift"
-            timestampString = "508787021.511353"
+            timestampString = "509413636.31064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "887"
-            endingLineNumber = "887"
+            startingLineNumber = "890"
+            endingLineNumber = "890"
             landmarkName = "showUpdatedOrders()"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Heart Rate App/ScatterPlotController.swift"
-            timestampString = "508787021.511353"
+            timestampString = "509413636.31064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "889"
-            endingLineNumber = "889"
+            startingLineNumber = "892"
+            endingLineNumber = "892"
             landmarkName = "showUpdatedOrders()"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Heart Rate App/ScatterPlotController.swift"
-            timestampString = "508787021.511353"
+            timestampString = "509413636.31064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "897"
-            endingLineNumber = "897"
+            startingLineNumber = "900"
+            endingLineNumber = "900"
             landmarkName = "showUpdatedOrders()"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Heart Rate App/ScatterPlotController.swift"
-            timestampString = "508787021.511353"
+            timestampString = "509413636.31064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "908"
-            endingLineNumber = "908"
+            startingLineNumber = "911"
+            endingLineNumber = "911"
             landmarkName = "showUpdatedOrders()"
             landmarkType = "7">
          </BreakpointContent>
