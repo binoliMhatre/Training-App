@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0B63861DEE574F009E9FD4 /* Burns.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B636B1DEE574F009E9FD4 /* Burns.png */; };
+		2D0B63871DEE574F009E9FD4 /* Cardiac.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B636C1DEE574F009E9FD4 /* Cardiac.png */; };
+		2D0B63881DEE574F009E9FD4 /* Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B636D1DEE574F009E9FD4 /* Checkmark.png */; };
+		2D0B63891DEE574F009E9FD4 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B636E1DEE574F009E9FD4 /* dot.png */; };
+		2D0B638A1DEE574F009E9FD4 /* face mask final.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B636F1DEE574F009E9FD4 /* face mask final.png */; };
+		2D0B638B1DEE574F009E9FD4 /* face maskpatient final.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63701DEE574F009E9FD4 /* face maskpatient final.png */; };
+		2D0B638C1DEE574F009E9FD4 /* face maskpatient male final.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63711DEE574F009E9FD4 /* face maskpatient male final.png */; };
+		2D0B638D1DEE574F009E9FD4 /* Folded Note.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63721DEE574F009E9FD4 /* Folded Note.png */; };
+		2D0B638E1DEE574F009E9FD4 /* intubated hose.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63731DEE574F009E9FD4 /* intubated hose.png */; };
+		2D0B638F1DEE574F009E9FD4 /* intubated patient male final.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63741DEE574F009E9FD4 /* intubated patient male final.png */; };
+		2D0B63901DEE574F009E9FD4 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63751DEE574F009E9FD4 /* Logo.png */; };
+		2D0B63911DEE574F009E9FD4 /* Neurology.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63761DEE574F009E9FD4 /* Neurology.png */; };
+		2D0B63921DEE574F009E9FD4 /* Obstetrics.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63771DEE574F009E9FD4 /* Obstetrics.png */; };
+		2D0B63931DEE574F009E9FD4 /* patient male nasal canulla final.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63781DEE574F009E9FD4 /* patient male nasal canulla final.png */; };
+		2D0B63941DEE574F009E9FD4 /* patient male.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63791DEE574F009E9FD4 /* patient male.png */; };
+		2D0B63961DEE574F009E9FD4 /* Patient_sitting.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B637B1DEE574F009E9FD4 /* Patient_sitting.png */; };
+		2D0B63971DEE574F009E9FD4 /* Pediatrics.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B637C1DEE574F009E9FD4 /* Pediatrics.png */; };
+		2D0B63981DEE574F009E9FD4 /* Pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B637D1DEE574F009E9FD4 /* Pencil.png */; };
+		2D0B63991DEE574F009E9FD4 /* Question Mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B637E1DEE574F009E9FD4 /* Question Mark.png */; };
+		2D0B639A1DEE574F009E9FD4 /* seated patient in pre op.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B637F1DEE574F009E9FD4 /* seated patient in pre op.png */; };
+		2D0B639B1DEE574F009E9FD4 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63801DEE574F009E9FD4 /* Settings.png */; };
+		2D0B639C1DEE574F009E9FD4 /* Syringe & Droplet.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63811DEE574F009E9FD4 /* Syringe & Droplet.png */; };
+		2D0B639D1DEE574F009E9FD4 /* Syringe.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63821DEE574F009E9FD4 /* Syringe.png */; };
+		2D0B639E1DEE574F009E9FD4 /* Trauma.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63831DEE574F009E9FD4 /* Trauma.png */; };
+		2D0B639F1DEE574F009E9FD4 /* Upward Arrow (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63841DEE574F009E9FD4 /* Upward Arrow (1).png */; };
+		2D0B63A01DEE574F009E9FD4 /* Upward Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B63851DEE574F009E9FD4 /* Upward Arrow.png */; };
+		2D16A74F1D1C223B00CF7B51 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D16A74E1D1C223B00CF7B51 /* EAGLView.m */; };
+		2D493E281DE3822200EE8B1B /* CaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D493E271DE3822200EE8B1B /* CaseCell.swift */; };
+		2DB1ACAF1DCD3E6F0047B1D0 /* SelectedCaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1ACAE1DCD3E6F0047B1D0 /* SelectedCaseViewController.swift */; };
+		2DE60CDB1DE533AD00412034 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE60CDA1DE533AD00412034 /* LevelViewController.swift */; };
+		2DE74F821DC7E47F00B2631F /* Cases.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DE74F811DC7E47F00B2631F /* Cases.plist */; };
+		2DF112851D104FC200B81815 /* PatientInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF112841D104FC200B81815 /* PatientInfoViewController.swift */; };
+		2DF112891D1054E400B81815 /* PatientData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DF112881D1054E400B81815 /* PatientData.plist */; };
+		2DF1128B1D10576E00B81815 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1128A1D10576E00B81815 /* InfoCell.swift */; };
+		2DF112981D145C3D00B81815 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF112971D145C3D00B81815 /* OpenGLES.framework */; };
+		3F6224221CCE9BA1009902A3 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6224211CCE9BA1009902A3 /* OrdersViewController.swift */; };
+		3F6224261CCE9C1F009902A3 /* Orders.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F6224251CCE9C1F009902A3 /* Orders.plist */; };
+		3F6224281CCE9C47009902A3 /* ValuePickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6224271CCE9C47009902A3 /* ValuePickerCell.xib */; };
+		3F62242A1CCE9EA5009902A3 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6224291CCE9EA5009902A3 /* CustomCell.swift */; };
+		3F62242C1CCEA6D0009902A3 /* NormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F62242B1CCEA6D0009902A3 /* NormalCell.xib */; };
+		3F62242E1CD3C129009902A3 /* AssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F62242D1CD3C129009902A3 /* AssessmentViewController.swift */; };
+		3F6224301CD3D582009902A3 /* Assessment.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F62242F1CD3D582009902A3 /* Assessment.plist */; };
+		6F9220D01DDCFDF30053E49E /* SignUpPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9220CF1DDCFDF30053E49E /* SignUpPageViewController.swift */; };
+		6FBF085D1DEE51830025E38C /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF085B1DEE51830025E38C /* Lato-Bold.ttf */; };
+		6FBF085E1DEE51830025E38C /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF085C1DEE51830025E38C /* Lato-Regular.ttf */; };
+		6FC0F2D81DE7A02700382145 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0F2D71DE7A02700382145 /* LoginViewController.swift */; };
+		C9459A161C6D18D100BF78D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9459A151C6D18D100BF78D5 /* AppDelegate.swift */; };
+		C9459A181C6D18D100BF78D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9459A171C6D18D100BF78D5 /* ViewController.swift */; };
+		C9459A1B1C6D18D100BF78D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9459A191C6D18D100BF78D5 /* Main.storyboard */; };
+		C9459A1D1C6D18D100BF78D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9459A1C1C6D18D100BF78D5 /* Assets.xcassets */; };
+		C9459A201C6D18D100BF78D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9459A1E1C6D18D100BF78D5 /* LaunchScreen.storyboard */; };
+		C9459A7B1C6D19C300BF78D5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9459A7A1C6D19C300BF78D5 /* QuartzCore.framework */; };
+		C9459BC41C6D1FED00BF78D5 /* CorePlot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9459B721C6D1E4900BF78D5 /* CorePlot.framework */; };
+		C9459BC51C6D1FED00BF78D5 /* CorePlot.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9459B721C6D1E4900BF78D5 /* CorePlot.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9459BCA1C6D222300BF78D5 /* ScatterPlotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9459BC91C6D222300BF78D5 /* ScatterPlotController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9459BC61C6D1FED00BF78D5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C9459BC51C6D1FED00BF78D5 /* CorePlot.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D0B636B1DEE574F009E9FD4 /* Burns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Burns.png; sourceTree = "<group>"; };
+		2D0B636C1DEE574F009E9FD4 /* Cardiac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cardiac.png; sourceTree = "<group>"; };
+		2D0B636D1DEE574F009E9FD4 /* Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkmark.png; sourceTree = "<group>"; };
+		2D0B636E1DEE574F009E9FD4 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
+		2D0B636F1DEE574F009E9FD4 /* face mask final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face mask final.png"; sourceTree = "<group>"; };
+		2D0B63701DEE574F009E9FD4 /* face maskpatient final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face maskpatient final.png"; sourceTree = "<group>"; };
+		2D0B63711DEE574F009E9FD4 /* face maskpatient male final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face maskpatient male final.png"; sourceTree = "<group>"; };
+		2D0B63721DEE574F009E9FD4 /* Folded Note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Folded Note.png"; sourceTree = "<group>"; };
+		2D0B63731DEE574F009E9FD4 /* intubated hose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "intubated hose.png"; sourceTree = "<group>"; };
+		2D0B63741DEE574F009E9FD4 /* intubated patient male final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "intubated patient male final.png"; sourceTree = "<group>"; };
+		2D0B63751DEE574F009E9FD4 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		2D0B63761DEE574F009E9FD4 /* Neurology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Neurology.png; sourceTree = "<group>"; };
+		2D0B63771DEE574F009E9FD4 /* Obstetrics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Obstetrics.png; sourceTree = "<group>"; };
+		2D0B63781DEE574F009E9FD4 /* patient male nasal canulla final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "patient male nasal canulla final.png"; sourceTree = "<group>"; };
+		2D0B63791DEE574F009E9FD4 /* patient male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "patient male.png"; sourceTree = "<group>"; };
+		2D0B637B1DEE574F009E9FD4 /* Patient_sitting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Patient_sitting.png; sourceTree = "<group>"; };
+		2D0B637C1DEE574F009E9FD4 /* Pediatrics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pediatrics.png; sourceTree = "<group>"; };
+		2D0B637D1DEE574F009E9FD4 /* Pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pencil.png; sourceTree = "<group>"; };
+		2D0B637E1DEE574F009E9FD4 /* Question Mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Question Mark.png"; sourceTree = "<group>"; };
+		2D0B637F1DEE574F009E9FD4 /* seated patient in pre op.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seated patient in pre op.png"; sourceTree = "<group>"; };
+		2D0B63801DEE574F009E9FD4 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		2D0B63811DEE574F009E9FD4 /* Syringe & Droplet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Syringe & Droplet.png"; sourceTree = "<group>"; };
+		2D0B63821DEE574F009E9FD4 /* Syringe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Syringe.png; sourceTree = "<group>"; };
+		2D0B63831DEE574F009E9FD4 /* Trauma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trauma.png; sourceTree = "<group>"; };
+		2D0B63841DEE574F009E9FD4 /* Upward Arrow (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Upward Arrow (1).png"; sourceTree = "<group>"; };
+		2D0B63851DEE574F009E9FD4 /* Upward Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Upward Arrow.png"; sourceTree = "<group>"; };
+		2D16A74D1D1C223B00CF7B51 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAGLView.h; path = "Heart Rate App/EAGLView.h"; sourceTree = "<group>"; };
+		2D16A74E1D1C223B00CF7B51 /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EAGLView.m; path = "Heart Rate App/EAGLView.m"; sourceTree = "<group>"; };
+		2D493E271DE3822200EE8B1B /* CaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseCell.swift; sourceTree = "<group>"; };
+		2DB1ACAE1DCD3E6F0047B1D0 /* SelectedCaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedCaseViewController.swift; sourceTree = "<group>"; };
+		2DE60CDA1DE533AD00412034 /* LevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		2DE74F811DC7E47F00B2631F /* Cases.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cases.plist; sourceTree = "<group>"; };
+		2DF112841D104FC200B81815 /* PatientInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientInfoViewController.swift; sourceTree = "<group>"; };
+		2DF112881D1054E400B81815 /* PatientData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PatientData.plist; sourceTree = "<group>"; };
+		2DF1128A1D10576E00B81815 /* InfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		2DF112971D145C3D00B81815 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3F6224211CCE9BA1009902A3 /* OrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		3F6224251CCE9C1F009902A3 /* Orders.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Orders.plist; sourceTree = "<group>"; };
+		3F6224271CCE9C47009902A3 /* ValuePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValuePickerCell.xib; sourceTree = "<group>"; };
+		3F6224291CCE9EA5009902A3 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		3F62242B1CCEA6D0009902A3 /* NormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NormalCell.xib; sourceTree = "<group>"; };
+		3F62242D1CD3C129009902A3 /* AssessmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssessmentViewController.swift; sourceTree = "<group>"; };
+		3F62242F1CD3D582009902A3 /* Assessment.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Assessment.plist; sourceTree = "<group>"; };
+		6F9220CF1DDCFDF30053E49E /* SignUpPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpPageViewController.swift; sourceTree = "<group>"; };
+		6FBF085B1DEE51830025E38C /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		6FBF085C1DEE51830025E38C /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		6FC0F2D71DE7A02700382145 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C9459A121C6D18D100BF78D5 /* Heart Rate App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heart Rate App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9459A151C6D18D100BF78D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9459A171C6D18D100BF78D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9459A1A1C6D18D100BF78D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9459A1C1C6D18D100BF78D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9459A1F1C6D18D100BF78D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9459A211C6D18D100BF78D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9459A791C6D195C00BF78D5 /* HeartRate-bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HeartRate-bridging-header.h"; sourceTree = "<group>"; };
+		C9459A7A1C6D19C300BF78D5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C9459B721C6D1E4900BF78D5 /* CorePlot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CorePlot.framework; sourceTree = "<group>"; };
+		C9459B751C6D1E9400BF78D5 /* CorePlot-CocoaTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CorePlot-CocoaTouch.h"; sourceTree = "<group>"; };
+		C9459B761C6D1E9400BF78D5 /* CPTAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnimation.h; sourceTree = "<group>"; };
+		C9459B771C6D1E9400BF78D5 /* CPTAnimationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnimationOperation.h; sourceTree = "<group>"; };
+		C9459B781C6D1E9400BF78D5 /* CPTAnimationPeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnimationPeriod.h; sourceTree = "<group>"; };
+		C9459B791C6D1E9400BF78D5 /* CPTAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnnotation.h; sourceTree = "<group>"; };
+		C9459B7A1C6D1E9400BF78D5 /* CPTAnnotationHostLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnnotationHostLayer.h; sourceTree = "<group>"; };
+		C9459B7B1C6D1E9400BF78D5 /* CPTAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxis.h; sourceTree = "<group>"; };
+		C9459B7C1C6D1E9400BF78D5 /* CPTAxisLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisLabel.h; sourceTree = "<group>"; };
+		C9459B7D1C6D1E9400BF78D5 /* CPTAxisLabelGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisLabelGroup.h; sourceTree = "<group>"; };
+		C9459B7E1C6D1E9400BF78D5 /* CPTAxisSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisSet.h; sourceTree = "<group>"; };
+		C9459B7F1C6D1E9400BF78D5 /* CPTAxisTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisTitle.h; sourceTree = "<group>"; };
+		C9459B801C6D1E9400BF78D5 /* CPTBarPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTBarPlot.h; sourceTree = "<group>"; };
+		C9459B811C6D1E9400BF78D5 /* CPTBorderedLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTBorderedLayer.h; sourceTree = "<group>"; };
+		C9459B821C6D1E9400BF78D5 /* CPTCalendarFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTCalendarFormatter.h; sourceTree = "<group>"; };
+		C9459B831C6D1E9400BF78D5 /* CPTColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTColor.h; sourceTree = "<group>"; };
+		C9459B841C6D1E9400BF78D5 /* CPTColorSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTColorSpace.h; sourceTree = "<group>"; };
+		C9459B851C6D1E9400BF78D5 /* CPTConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTConstraints.h; sourceTree = "<group>"; };
+		C9459B861C6D1E9400BF78D5 /* CPTDataSourceTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTDataSourceTestCase.h; sourceTree = "<group>"; };
+		C9459B871C6D1E9400BF78D5 /* CPTDebugQuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTDebugQuickLook.h; sourceTree = "<group>"; };
+		C9459B881C6D1E9400BF78D5 /* CPTDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTDefinitions.h; sourceTree = "<group>"; };
+		C9459B891C6D1E9400BF78D5 /* CPTDerivedXYGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTDerivedXYGraph.h; sourceTree = "<group>"; };
+		C9459B8A1C6D1E9400BF78D5 /* CPTExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTExceptions.h; sourceTree = "<group>"; };
+		C9459B8B1C6D1E9400BF78D5 /* CPTFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTFill.h; sourceTree = "<group>"; };
+		C9459B8C1C6D1E9400BF78D5 /* CPTFunctionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTFunctionDataSource.h; sourceTree = "<group>"; };
+		C9459B8D1C6D1E9400BF78D5 /* CPTGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGradient.h; sourceTree = "<group>"; };
+		C9459B8E1C6D1E9400BF78D5 /* CPTGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGraph.h; sourceTree = "<group>"; };
+		C9459B8F1C6D1E9400BF78D5 /* CPTGraphHostingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGraphHostingView.h; sourceTree = "<group>"; };
+		C9459B901C6D1E9400BF78D5 /* CPTGridLineGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGridLineGroup.h; sourceTree = "<group>"; };
+		C9459B911C6D1E9400BF78D5 /* CPTGridLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGridLines.h; sourceTree = "<group>"; };
+		C9459B921C6D1E9400BF78D5 /* CPTImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTImage.h; sourceTree = "<group>"; };
+		C9459B931C6D1E9400BF78D5 /* CPTLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLayer.h; sourceTree = "<group>"; };
+		C9459B941C6D1E9400BF78D5 /* CPTLayerAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLayerAnnotation.h; sourceTree = "<group>"; };
+		C9459B951C6D1E9400BF78D5 /* CPTLegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLegend.h; sourceTree = "<group>"; };
+		C9459B961C6D1E9400BF78D5 /* CPTLegendEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLegendEntry.h; sourceTree = "<group>"; };
+		C9459B971C6D1E9400BF78D5 /* CPTLimitBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLimitBand.h; sourceTree = "<group>"; };
+		C9459B981C6D1E9400BF78D5 /* CPTLineCap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLineCap.h; sourceTree = "<group>"; };
+		C9459B991C6D1E9400BF78D5 /* CPTLineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLineStyle.h; sourceTree = "<group>"; };
+		C9459B9A1C6D1E9400BF78D5 /* CPTMutableLineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableLineStyle.h; sourceTree = "<group>"; };
+		C9459B9B1C6D1E9400BF78D5 /* CPTMutableNumericData+TypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CPTMutableNumericData+TypeConversion.h"; sourceTree = "<group>"; };
+		C9459B9C1C6D1E9400BF78D5 /* CPTMutableNumericData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableNumericData.h; sourceTree = "<group>"; };
+		C9459B9D1C6D1E9400BF78D5 /* CPTMutablePlotRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutablePlotRange.h; sourceTree = "<group>"; };
+		C9459B9E1C6D1E9400BF78D5 /* CPTMutableShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableShadow.h; sourceTree = "<group>"; };
+		C9459B9F1C6D1E9400BF78D5 /* CPTMutableTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableTextStyle.h; sourceTree = "<group>"; };
+		C9459BA01C6D1E9400BF78D5 /* CPTNumericData+TypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CPTNumericData+TypeConversion.h"; sourceTree = "<group>"; };
+		C9459BA11C6D1E9400BF78D5 /* CPTNumericData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTNumericData.h; sourceTree = "<group>"; };
+		C9459BA21C6D1E9400BF78D5 /* CPTNumericDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTNumericDataType.h; sourceTree = "<group>"; };
+		C9459BA31C6D1E9400BF78D5 /* CPTPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPathExtensions.h; sourceTree = "<group>"; };
+		C9459BA41C6D1E9400BF78D5 /* CPTPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPieChart.h; sourceTree = "<group>"; };
+		C9459BA51C6D1E9400BF78D5 /* CPTPlatformSpecificCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificCategories.h; sourceTree = "<group>"; };
+		C9459BA61C6D1E9400BF78D5 /* CPTPlatformSpecificDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificDefines.h; sourceTree = "<group>"; };
+		C9459BA71C6D1E9400BF78D5 /* CPTPlatformSpecificFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificFunctions.h; sourceTree = "<group>"; };
+		C9459BA81C6D1E9400BF78D5 /* CPTPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlot.h; sourceTree = "<group>"; };
+		C9459BA91C6D1E9400BF78D5 /* CPTPlotArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotArea.h; sourceTree = "<group>"; };
+		C9459BAA1C6D1E9400BF78D5 /* CPTPlotAreaFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotAreaFrame.h; sourceTree = "<group>"; };
+		C9459BAB1C6D1E9400BF78D5 /* CPTPlotGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotGroup.h; sourceTree = "<group>"; };
+		C9459BAC1C6D1E9400BF78D5 /* CPTPlotRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotRange.h; sourceTree = "<group>"; };
+		C9459BAD1C6D1E9400BF78D5 /* CPTPlotSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotSpace.h; sourceTree = "<group>"; };
+		C9459BAE1C6D1E9400BF78D5 /* CPTPlotSpaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotSpaceAnnotation.h; sourceTree = "<group>"; };
+		C9459BAF1C6D1E9400BF78D5 /* CPTPlotSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotSymbol.h; sourceTree = "<group>"; };
+		C9459BB01C6D1E9400BF78D5 /* CPTRangePlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTRangePlot.h; sourceTree = "<group>"; };
+		C9459BB11C6D1E9400BF78D5 /* CPTResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTResponder.h; sourceTree = "<group>"; };
+		C9459BB21C6D1E9400BF78D5 /* CPTScatterPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTScatterPlot.h; sourceTree = "<group>"; };
+		C9459BB31C6D1E9400BF78D5 /* CPTShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTShadow.h; sourceTree = "<group>"; };
+		C9459BB41C6D1E9400BF78D5 /* CPTTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTestCase.h; sourceTree = "<group>"; };
+		C9459BB51C6D1E9400BF78D5 /* CPTTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTextLayer.h; sourceTree = "<group>"; };
+		C9459BB61C6D1E9400BF78D5 /* CPTTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTextStyle.h; sourceTree = "<group>"; };
+		C9459BB71C6D1E9400BF78D5 /* CPTTextStylePlatformSpecific.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTextStylePlatformSpecific.h; sourceTree = "<group>"; };
+		C9459BB81C6D1E9400BF78D5 /* CPTTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTheme.h; sourceTree = "<group>"; };
+		C9459BB91C6D1E9400BF78D5 /* CPTTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTimeFormatter.h; sourceTree = "<group>"; };
+		C9459BBA1C6D1E9400BF78D5 /* CPTTradingRangePlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTradingRangePlot.h; sourceTree = "<group>"; };
+		C9459BBB1C6D1E9400BF78D5 /* CPTUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTUtilities.h; sourceTree = "<group>"; };
+		C9459BBC1C6D1E9400BF78D5 /* CPTXYAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYAxis.h; sourceTree = "<group>"; };
+		C9459BBD1C6D1E9400BF78D5 /* CPTXYAxisSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYAxisSet.h; sourceTree = "<group>"; };
+		C9459BBE1C6D1E9400BF78D5 /* CPTXYGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYGraph.h; sourceTree = "<group>"; };
+		C9459BBF1C6D1E9400BF78D5 /* CPTXYPlotSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYPlotSpace.h; sourceTree = "<group>"; };
+		C9459BC01C6D1E9400BF78D5 /* mainpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainpage.h; sourceTree = "<group>"; };
+		C9459BC11C6D1E9400BF78D5 /* NSCoderExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCoderExtensions.h; sourceTree = "<group>"; };
+		C9459BC21C6D1E9400BF78D5 /* NSDecimalNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDecimalNumberExtensions.h; sourceTree = "<group>"; };
+		C9459BC31C6D1E9400BF78D5 /* NSNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumberExtensions.h; sourceTree = "<group>"; };
+		C9459BC91C6D222300BF78D5 /* ScatterPlotController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScatterPlotController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9459A0F1C6D18D100BF78D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF112981D145C3D00B81815 /* OpenGLES.framework in Frameworks */,
+				C9459BC41C6D1FED00BF78D5 /* CorePlot.framework in Frameworks */,
+				C9459A7B1C6D19C300BF78D5 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0B636A1DEE574F009E9FD4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2D0B636B1DEE574F009E9FD4 /* Burns.png */,
+				2D0B636C1DEE574F009E9FD4 /* Cardiac.png */,
+				2D0B636D1DEE574F009E9FD4 /* Checkmark.png */,
+				2D0B636E1DEE574F009E9FD4 /* dot.png */,
+				2D0B636F1DEE574F009E9FD4 /* face mask final.png */,
+				2D0B63701DEE574F009E9FD4 /* face maskpatient final.png */,
+				2D0B63711DEE574F009E9FD4 /* face maskpatient male final.png */,
+				2D0B63721DEE574F009E9FD4 /* Folded Note.png */,
+				2D0B63731DEE574F009E9FD4 /* intubated hose.png */,
+				2D0B63741DEE574F009E9FD4 /* intubated patient male final.png */,
+				2D0B63751DEE574F009E9FD4 /* Logo.png */,
+				2D0B63761DEE574F009E9FD4 /* Neurology.png */,
+				2D0B63771DEE574F009E9FD4 /* Obstetrics.png */,
+				2D0B63781DEE574F009E9FD4 /* patient male nasal canulla final.png */,
+				2D0B63791DEE574F009E9FD4 /* patient male.png */,
+				2D0B637B1DEE574F009E9FD4 /* Patient_sitting.png */,
+				2D0B637C1DEE574F009E9FD4 /* Pediatrics.png */,
+				2D0B637D1DEE574F009E9FD4 /* Pencil.png */,
+				2D0B637E1DEE574F009E9FD4 /* Question Mark.png */,
+				2D0B637F1DEE574F009E9FD4 /* seated patient in pre op.png */,
+				2D0B63801DEE574F009E9FD4 /* Settings.png */,
+				2D0B63811DEE574F009E9FD4 /* Syringe & Droplet.png */,
+				2D0B63821DEE574F009E9FD4 /* Syringe.png */,
+				2D0B63831DEE574F009E9FD4 /* Trauma.png */,
+				2D0B63841DEE574F009E9FD4 /* Upward Arrow (1).png */,
+				2D0B63851DEE574F009E9FD4 /* Upward Arrow.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6FBF085A1DEE51830025E38C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				6FBF085B1DEE51830025E38C /* Lato-Bold.ttf */,
+				6FBF085C1DEE51830025E38C /* Lato-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		C9459A091C6D18D100BF78D5 = {
+			isa = PBXGroup;
+			children = (
+				2DF112971D145C3D00B81815 /* OpenGLES.framework */,
+				C9459B721C6D1E4900BF78D5 /* CorePlot.framework */,
+				C9459A7A1C6D19C300BF78D5 /* QuartzCore.framework */,
+				2D16A74D1D1C223B00CF7B51 /* EAGLView.h */,
+				2D16A74E1D1C223B00CF7B51 /* EAGLView.m */,
+				C9459A271C6D18DA00BF78D5 /* CorePlot */,
+				C9459A141C6D18D100BF78D5 /* Heart Rate App */,
+				C9459A131C6D18D100BF78D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9459A131C6D18D100BF78D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9459A121C6D18D100BF78D5 /* Heart Rate App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9459A141C6D18D100BF78D5 /* Heart Rate App */ = {
+			isa = PBXGroup;
+			children = (
+				2D0B636A1DEE574F009E9FD4 /* Images */,
+				6FBF085A1DEE51830025E38C /* Font */,
+				6F9220CF1DDCFDF30053E49E /* SignUpPageViewController.swift */,
+				6FC0F2D71DE7A02700382145 /* LoginViewController.swift */,
+				C9459A151C6D18D100BF78D5 /* AppDelegate.swift */,
+				C9459A171C6D18D100BF78D5 /* ViewController.swift */,
+				C9459BC91C6D222300BF78D5 /* ScatterPlotController.swift */,
+				3F6224211CCE9BA1009902A3 /* OrdersViewController.swift */,
+				2DF112841D104FC200B81815 /* PatientInfoViewController.swift */,
+				2DF1128A1D10576E00B81815 /* InfoCell.swift */,
+				2D493E271DE3822200EE8B1B /* CaseCell.swift */,
+				3F62242D1CD3C129009902A3 /* AssessmentViewController.swift */,
+				3F6224291CCE9EA5009902A3 /* CustomCell.swift */,
+				2DE60CDA1DE533AD00412034 /* LevelViewController.swift */,
+				2DB1ACAE1DCD3E6F0047B1D0 /* SelectedCaseViewController.swift */,
+				C9459A191C6D18D100BF78D5 /* Main.storyboard */,
+				C9459A1E1C6D18D100BF78D5 /* LaunchScreen.storyboard */,
+				3F6224271CCE9C47009902A3 /* ValuePickerCell.xib */,
+				3F62242B1CCEA6D0009902A3 /* NormalCell.xib */,
+				C9459A1C1C6D18D100BF78D5 /* Assets.xcassets */,
+				3F6224251CCE9C1F009902A3 /* Orders.plist */,
+				3F62242F1CD3D582009902A3 /* Assessment.plist */,
+				2DE74F811DC7E47F00B2631F /* Cases.plist */,
+				2DF112881D1054E400B81815 /* PatientData.plist */,
+				C9459A211C6D18D100BF78D5 /* Info.plist */,
+				C9459A791C6D195C00BF78D5 /* HeartRate-bridging-header.h */,
+			);
+			path = "Heart Rate App";
+			sourceTree = "<group>";
+		};
+		C9459A271C6D18DA00BF78D5 /* CorePlot */ = {
+			isa = PBXGroup;
+			children = (
+				C9459B741C6D1E9400BF78D5 /* CorePlotHeaders */,
+			);
+			name = CorePlot;
+			sourceTree = "<group>";
+		};
+		C9459B741C6D1E9400BF78D5 /* CorePlotHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				C9459B751C6D1E9400BF78D5 /* CorePlot-CocoaTouch.h */,
+				C9459B761C6D1E9400BF78D5 /* CPTAnimation.h */,
+				C9459B771C6D1E9400BF78D5 /* CPTAnimationOperation.h */,
+				C9459B781C6D1E9400BF78D5 /* CPTAnimationPeriod.h */,
+				C9459B791C6D1E9400BF78D5 /* CPTAnnotation.h */,
+				C9459B7A1C6D1E9400BF78D5 /* CPTAnnotationHostLayer.h */,
+				C9459B7B1C6D1E9400BF78D5 /* CPTAxis.h */,
+				C9459B7C1C6D1E9400BF78D5 /* CPTAxisLabel.h */,
+				C9459B7D1C6D1E9400BF78D5 /* CPTAxisLabelGroup.h */,
+				C9459B7E1C6D1E9400BF78D5 /* CPTAxisSet.h */,
+				C9459B7F1C6D1E9400BF78D5 /* CPTAxisTitle.h */,
+				C9459B801C6D1E9400BF78D5 /* CPTBarPlot.h */,
+				C9459B811C6D1E9400BF78D5 /* CPTBorderedLayer.h */,
+				C9459B821C6D1E9400BF78D5 /* CPTCalendarFormatter.h */,
+				C9459B831C6D1E9400BF78D5 /* CPTColor.h */,
+				C9459B841C6D1E9400BF78D5 /* CPTColorSpace.h */,
+				C9459B851C6D1E9400BF78D5 /* CPTConstraints.h */,
+				C9459B861C6D1E9400BF78D5 /* CPTDataSourceTestCase.h */,
+				C9459B871C6D1E9400BF78D5 /* CPTDebugQuickLook.h */,
+				C9459B881C6D1E9400BF78D5 /* CPTDefinitions.h */,
+				C9459B891C6D1E9400BF78D5 /* CPTDerivedXYGraph.h */,
+				C9459B8A1C6D1E9400BF78D5 /* CPTExceptions.h */,
+				C9459B8B1C6D1E9400BF78D5 /* CPTFill.h */,
+				C9459B8C1C6D1E9400BF78D5 /* CPTFunctionDataSource.h */,
+				C9459B8D1C6D1E9400BF78D5 /* CPTGradient.h */,
+				C9459B8E1C6D1E9400BF78D5 /* CPTGraph.h */,
+				C9459B8F1C6D1E9400BF78D5 /* CPTGraphHostingView.h */,
+				C9459B901C6D1E9400BF78D5 /* CPTGridLineGroup.h */,
+				C9459B911C6D1E9400BF78D5 /* CPTGridLines.h */,
+				C9459B921C6D1E9400BF78D5 /* CPTImage.h */,
+				C9459B931C6D1E9400BF78D5 /* CPTLayer.h */,
+				C9459B941C6D1E9400BF78D5 /* CPTLayerAnnotation.h */,
+				C9459B951C6D1E9400BF78D5 /* CPTLegend.h */,
+				C9459B961C6D1E9400BF78D5 /* CPTLegendEntry.h */,
+				C9459B971C6D1E9400BF78D5 /* CPTLimitBand.h */,
+				C9459B981C6D1E9400BF78D5 /* CPTLineCap.h */,
+				C9459B991C6D1E9400BF78D5 /* CPTLineStyle.h */,
+				C9459B9A1C6D1E9400BF78D5 /* CPTMutableLineStyle.h */,
+				C9459B9B1C6D1E9400BF78D5 /* CPTMutableNumericData+TypeConversion.h */,
+				C9459B9C1C6D1E9400BF78D5 /* CPTMutableNumericData.h */,
+				C9459B9D1C6D1E9400BF78D5 /* CPTMutablePlotRange.h */,
+				C9459B9E1C6D1E9400BF78D5 /* CPTMutableShadow.h */,
+				C9459B9F1C6D1E9400BF78D5 /* CPTMutableTextStyle.h */,
+				C9459BA01C6D1E9400BF78D5 /* CPTNumericData+TypeConversion.h */,
+				C9459BA11C6D1E9400BF78D5 /* CPTNumericData.h */,
+				C9459BA21C6D1E9400BF78D5 /* CPTNumericDataType.h */,
+				C9459BA31C6D1E9400BF78D5 /* CPTPathExtensions.h */,
+				C9459BA41C6D1E9400BF78D5 /* CPTPieChart.h */,
+				C9459BA51C6D1E9400BF78D5 /* CPTPlatformSpecificCategories.h */,
+				C9459BA61C6D1E9400BF78D5 /* CPTPlatformSpecificDefines.h */,
+				C9459BA71C6D1E9400BF78D5 /* CPTPlatformSpecificFunctions.h */,
+				C9459BA81C6D1E9400BF78D5 /* CPTPlot.h */,
+				C9459BA91C6D1E9400BF78D5 /* CPTPlotArea.h */,
+				C9459BAA1C6D1E9400BF78D5 /* CPTPlotAreaFrame.h */,
+				C9459BAB1C6D1E9400BF78D5 /* CPTPlotGroup.h */,
+				C9459BAC1C6D1E9400BF78D5 /* CPTPlotRange.h */,
+				C9459BAD1C6D1E9400BF78D5 /* CPTPlotSpace.h */,
+				C9459BAE1C6D1E9400BF78D5 /* CPTPlotSpaceAnnotation.h */,
+				C9459BAF1C6D1E9400BF78D5 /* CPTPlotSymbol.h */,
+				C9459BB01C6D1E9400BF78D5 /* CPTRangePlot.h */,
+				C9459BB11C6D1E9400BF78D5 /* CPTResponder.h */,
+				C9459BB21C6D1E9400BF78D5 /* CPTScatterPlot.h */,
+				C9459BB31C6D1E9400BF78D5 /* CPTShadow.h */,
+				C9459BB41C6D1E9400BF78D5 /* CPTTestCase.h */,
+				C9459BB51C6D1E9400BF78D5 /* CPTTextLayer.h */,
+				C9459BB61C6D1E9400BF78D5 /* CPTTextStyle.h */,
+				C9459BB71C6D1E9400BF78D5 /* CPTTextStylePlatformSpecific.h */,
+				C9459BB81C6D1E9400BF78D5 /* CPTTheme.h */,
+				C9459BB91C6D1E9400BF78D5 /* CPTTimeFormatter.h */,
+				C9459BBA1C6D1E9400BF78D5 /* CPTTradingRangePlot.h */,
+				C9459BBB1C6D1E9400BF78D5 /* CPTUtilities.h */,
+				C9459BBC1C6D1E9400BF78D5 /* CPTXYAxis.h */,
+				C9459BBD1C6D1E9400BF78D5 /* CPTXYAxisSet.h */,
+				C9459BBE1C6D1E9400BF78D5 /* CPTXYGraph.h */,
+				C9459BBF1C6D1E9400BF78D5 /* CPTXYPlotSpace.h */,
+				C9459BC01C6D1E9400BF78D5 /* mainpage.h */,
+				C9459BC11C6D1E9400BF78D5 /* NSCoderExtensions.h */,
+				C9459BC21C6D1E9400BF78D5 /* NSDecimalNumberExtensions.h */,
+				C9459BC31C6D1E9400BF78D5 /* NSNumberExtensions.h */,
+			);
+			path = CorePlotHeaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9459A111C6D18D100BF78D5 /* Heart Rate App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9459A241C6D18D100BF78D5 /* Build configuration list for PBXNativeTarget "Heart Rate App" */;
+			buildPhases = (
+				C9459A0E1C6D18D100BF78D5 /* Sources */,
+				C9459A0F1C6D18D100BF78D5 /* Frameworks */,
+				C9459A101C6D18D100BF78D5 /* Resources */,
+				C9459BC61C6D1FED00BF78D5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heart Rate App";
+			productName = "Heart Rate App";
+			productReference = C9459A121C6D18D100BF78D5 /* Heart Rate App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9459A0A1C6D18D100BF78D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Matt Leccadito";
+				TargetAttributes = {
+					C9459A111C6D18D100BF78D5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QEMU44F337;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = C9459A0D1C6D18D100BF78D5 /* Build configuration list for PBXProject "Heart Rate App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9459A091C6D18D100BF78D5;
+			productRefGroup = C9459A131C6D18D100BF78D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9459A111C6D18D100BF78D5 /* Heart Rate App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9459A101C6D18D100BF78D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0B63961DEE574F009E9FD4 /* Patient_sitting.png in Resources */,
+				6FBF085E1DEE51830025E38C /* Lato-Regular.ttf in Resources */,
+				2D0B638F1DEE574F009E9FD4 /* intubated patient male final.png in Resources */,
+				2D0B638B1DEE574F009E9FD4 /* face maskpatient final.png in Resources */,
+				2D0B63921DEE574F009E9FD4 /* Obstetrics.png in Resources */,
+				6FBF085D1DEE51830025E38C /* Lato-Bold.ttf in Resources */,
+				2D0B63901DEE574F009E9FD4 /* Logo.png in Resources */,
+				2D0B639E1DEE574F009E9FD4 /* Trauma.png in Resources */,
+				2D0B639D1DEE574F009E9FD4 /* Syringe.png in Resources */,
+				2D0B639C1DEE574F009E9FD4 /* Syringe & Droplet.png in Resources */,
+				2D0B63971DEE574F009E9FD4 /* Pediatrics.png in Resources */,
+				3F6224301CD3D582009902A3 /* Assessment.plist in Resources */,
+				2D0B63891DEE574F009E9FD4 /* dot.png in Resources */,
+				2D0B63A01DEE574F009E9FD4 /* Upward Arrow.png in Resources */,
+				2D0B639F1DEE574F009E9FD4 /* Upward Arrow (1).png in Resources */,
+				C9459A201C6D18D100BF78D5 /* LaunchScreen.storyboard in Resources */,
+				2D0B63941DEE574F009E9FD4 /* patient male.png in Resources */,
+				3F62242C1CCEA6D0009902A3 /* NormalCell.xib in Resources */,
+				2DF112891D1054E400B81815 /* PatientData.plist in Resources */,
+				2D0B63861DEE574F009E9FD4 /* Burns.png in Resources */,
+				2D0B638C1DEE574F009E9FD4 /* face maskpatient male final.png in Resources */,
+				3F6224261CCE9C1F009902A3 /* Orders.plist in Resources */,
+				C9459A1D1C6D18D100BF78D5 /* Assets.xcassets in Resources */,
+				2D0B63981DEE574F009E9FD4 /* Pencil.png in Resources */,
+				2D0B638E1DEE574F009E9FD4 /* intubated hose.png in Resources */,
+				2D0B63881DEE574F009E9FD4 /* Checkmark.png in Resources */,
+				2D0B638A1DEE574F009E9FD4 /* face mask final.png in Resources */,
+				2D0B63931DEE574F009E9FD4 /* patient male nasal canulla final.png in Resources */,
+				2D0B639A1DEE574F009E9FD4 /* seated patient in pre op.png in Resources */,
+				2DE74F821DC7E47F00B2631F /* Cases.plist in Resources */,
+				2D0B63991DEE574F009E9FD4 /* Question Mark.png in Resources */,
+				2D0B639B1DEE574F009E9FD4 /* Settings.png in Resources */,
+				C9459A1B1C6D18D100BF78D5 /* Main.storyboard in Resources */,
+				2D0B63871DEE574F009E9FD4 /* Cardiac.png in Resources */,
+				2D0B63911DEE574F009E9FD4 /* Neurology.png in Resources */,
+				2D0B638D1DEE574F009E9FD4 /* Folded Note.png in Resources */,
+				3F6224281CCE9C47009902A3 /* ValuePickerCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9459A0E1C6D18D100BF78D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC0F2D81DE7A02700382145 /* LoginViewController.swift in Sources */,
+				3F6224221CCE9BA1009902A3 /* OrdersViewController.swift in Sources */,
+				2D493E281DE3822200EE8B1B /* CaseCell.swift in Sources */,
+				C9459A181C6D18D100BF78D5 /* ViewController.swift in Sources */,
+				2DF112851D104FC200B81815 /* PatientInfoViewController.swift in Sources */,
+				3F62242E1CD3C129009902A3 /* AssessmentViewController.swift in Sources */,
+				C9459A161C6D18D100BF78D5 /* AppDelegate.swift in Sources */,
+				2DF1128B1D10576E00B81815 /* InfoCell.swift in Sources */,
+				2DB1ACAF1DCD3E6F0047B1D0 /* SelectedCaseViewController.swift in Sources */,
+				2D16A74F1D1C223B00CF7B51 /* EAGLView.m in Sources */,
+				3F62242A1CCE9EA5009902A3 /* CustomCell.swift in Sources */,
+				2DE60CDB1DE533AD00412034 /* LevelViewController.swift in Sources */,
+				6F9220D01DDCFDF30053E49E /* SignUpPageViewController.swift in Sources */,
+				C9459BCA1C6D222300BF78D5 /* ScatterPlotController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9459A191C6D18D100BF78D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9459A1A1C6D18D100BF78D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9459A1E1C6D18D100BF78D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9459A1F1C6D18D100BF78D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9459A221C6D18D100BF78D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9459A231C6D18D100BF78D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9459A251C6D18D100BF78D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QEMU44F337;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Heart Rate App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Heart-Rate-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Heart Rate App/HeartRate-bridging-header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C9459A261C6D18D100BF78D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QEMU44F337;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Heart Rate App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Heart-Rate-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Heart Rate App/HeartRate-bridging-header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9459A0D1C6D18D100BF78D5 /* Build configuration list for PBXProject "Heart Rate App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9459A221C6D18D100BF78D5 /* Debug */,
+				C9459A231C6D18D100BF78D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9459A241C6D18D100BF78D5 /* Build configuration list for PBXNativeTarget "Heart Rate App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9459A251C6D18D100BF78D5 /* Debug */,
+				C9459A261C6D18D100BF78D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9459A0A1C6D18D100BF78D5 /* Project object */;
+}

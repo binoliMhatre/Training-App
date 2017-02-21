@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Pilot Scenario</key>
+	<dict>
+		<key>Name</key>
+		<string>Pilot Scenario</string>
+		<key>Pre-op</key>
+		<dict>
+			<key>HR</key>
+			<string>64</string>
+			<key>Spo2</key>
+			<string>98%</string>
+			<key>BP</key>
+			<string>146/82</string>
+			<key>Temperature</key>
+			<string>98.2</string>
+		</dict>
+		<key>OR</key>
+		<dict>
+			<key>HR</key>
+			<string>70</string>
+			<key>Spo2</key>
+			<string>96%</string>
+			<key>BP</key>
+			<string>150/85</string>
+			<key>Temperature</key>
+			<string>98.2</string>
+		</dict>
+		<key>Correct Actions</key>
+		<dict>
+			<key>Succinylcholine</key>
+			<dict>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Rocuronium</key>
+			<dict>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Vecuronium</key>
+			<dict>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Cisatracurium</key>
+			<dict>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Atracurium</key>
+			<dict>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Pancuronium</key>
+			<dict>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Fentanyl
+</key>
+			<dict>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Lidocaine
+ - 2</key>
+			<dict>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Etomidate
+ - 2 - 2</key>
+			<dict>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Sevo</key>
+			<dict>
+				<key>Low</key>
+				<string>1.5</string>
+				<key>High</key>
+				<string>3</string>
+			</dict>
+			<key>Oxygen</key>
+			<string>1</string>
+			<key>Air</key>
+			<string>1</string>
+		</dict>
+		<key>Incorrect Actions</key>
+		<dict>
+			<key>Pancuronium</key>
+			<dict>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Atracurium</key>
+			<dict>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Cisatracurium</key>
+			<dict>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Vecuronium</key>
+			<dict>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Rocuronium</key>
+			<dict>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Succinylcholine</key>
+			<dict>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Neostigmine</key>
+			<dict>
+				<key>HR </key>
+				<string>-30</string>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Naloxone</key>
+			<dict>
+				<key>RR</key>
+				<string>+20</string>
+				<key>BP</key>
+				<string>+30</string>
+				<key>HR</key>
+				<string>+30</string>
+				<key>TOF</key>
+				<string>1</string>
+			</dict>
+			<key>Glycopyrrolate</key>
+			<dict>
+				<key>HR</key>
+				<string>30</string>
+			</dict>
+			<key>Atropine</key>
+			<dict>
+				<key>HR</key>
+				<string>+30</string>
+			</dict>
+			<key>Propofol</key>
+			<dict>
+				<key>HR</key>
+				<string>+50</string>
+				<key>BP</key>
+				<string>-50</string>
+			</dict>
+			<key>Etomidate</key>
+			<dict>
+				<key>BP</key>
+				<string>-10</string>
+			</dict>
+			<key>Ketamine</key>
+			<dict>
+				<key>HR</key>
+				<string>+10</string>
+			</dict>
+			<key>Midazolam</key>
+			<dict/>
+			<key>Flumazenil </key>
+			<dict>
+				<key>HR</key>
+				<string>+10</string>
+			</dict>
+			<key>Dexmedetomidine</key>
+			<dict>
+				<key>HR</key>
+				<string>-30</string>
+				<key>BP</key>
+				<string>-20</string>
+			</dict>
+			<key>Fentanyl</key>
+			<dict>
+				<key>Respiration rate</key>
+				<string>-30</string>
+			</dict>
+			<key>Sufentanil</key>
+			<dict>
+				<key>Respiration rate</key>
+				<string>-4</string>
+			</dict>
+			<key>Remifentanil</key>
+			<dict>
+				<key>Respiration rate</key>
+				<string>-12</string>
+			</dict>
+			<key>Ephedrine</key>
+			<dict>
+				<key>HR</key>
+				<string>+20</string>
+				<key>BP</key>
+				<string>+30
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+				<key>BY</key>
+				<string>+30</string>
+			</dict>
+			<key>Phenylephrine</key>
+			<dict>
+				<key>HR</key>
+				<string>-20</string>
+				<key>BP</key>
+				<string>+30
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+			</dict>
+			<key>Epinephrine</key>
+			<dict>
+				<key>HR</key>
+				<string>+20</string>
+				<key>BP</key>
+				<string>+30
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+				<key>BY</key>
+				<string>+30</string>
+			</dict>
+			<key>Nitroglycerin</key>
+			<dict>
+				<key>HR</key>
+				<string>+10</string>
+				<key>BP</key>
+				<string>-30
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+				<key>BY</key>
+				<string>-30</string>
+			</dict>
+			<key>Hydralazine</key>
+			<dict>
+				<key>BP</key>
+				<string>-20
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+				<key>BY</key>
+				<string>-20</string>
+			</dict>
+			<key>Labetalol</key>
+			<dict>
+				<key>BP</key>
+				<string>-30
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+				<key>HR</key>
+				<string>-30
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+				<key>BY</key>
+				<string>-30</string>
+			</dict>
+			<key>Esmolol</key>
+			<dict>
+				<key>BP</key>
+				<string>-10
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+				<key>HR</key>
+				<string>-10
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+				<key>BY</key>
+				<string>-10</string>
+			</dict>
+			<key>Packed Red Blood Cells</key>
+			<dict>
+				<key>BP</key>
+				<string>+10
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+				<key>HR</key>
+				<string>-10
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+				<key>BY</key>
+				<string>+10</string>
+			</dict>
+			<key>DDAVP</key>
+			<dict>
+				<key>BP</key>
+				<string>-10
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+				<key>BY</key>
+				<string>-10</string>
+			</dict>
+			<key>Cefazolin</key>
+			<dict>
+				<key>BP</key>
+				<string>-50
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+				<key>HR</key>
+				<string>+50
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+				<key>BY</key>
+				<string>-50</string>
+			</dict>
+			<key>Cefoxitin</key>
+			<dict>
+				<key>BP</key>
+				<string>-50
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+				<key>HR</key>
+				<string>+50
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+				<key>BY</key>
+				<string>-50</string>
+			</dict>
+			<key>Furosemide</key>
+			<dict>
+				<key>BP</key>
+				<string>-20
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+			</dict>
+			<key>Calcium Chloride</key>
+			<dict>
+				<key>BP</key>
+				<string>+30
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;string&gt;+20&lt;/string&gt;
+&lt;/plist&gt;
+=30</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

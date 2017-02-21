@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MRN</key>
+	<string>0001</string>
+	<key>Initials</key>
+	<string>TD</string>
+	<key>Age</key>
+	<string>60</string>
+	<key>Sex</key>
+	<string>Male</string>
+	<key>Allergies</key>
+	<string>Augmentin , Eggs</string>
+	<key>Weight</key>
+	<string>100 kg (220 lbs)</string>
+	<key>Height</key>
+	<string>6&apos;0 ( 183 cm)</string>
+	<key>Procedure</key>
+	<string>R Shoulder Arthroplasty</string>
+</dict>
+</plist>
