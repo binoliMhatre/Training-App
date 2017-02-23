@@ -13,8 +13,9 @@ import OpenGLES
         static let GRID_LINES_VERT=30
     }
     @IBOutlet  var lblTitle: UILabel!
+    
     //Transport Popup
-   @IBOutlet var transferPopupView: UIView!
+    @IBOutlet var transferPopupView: UIView!
     @IBOutlet var transferPopupInnerView: UIView!
     
     // Vent Screen
@@ -88,11 +89,12 @@ import OpenGLES
     var timer = Timer()
     let lblHeartRateGreen=UILabel(frame: CGRect(x: 0, y: 15, width: 50, height: 20))
     let lblBlue = UILabel(frame: CGRect(x: 0, y: 35, width: 50, height: 20))
-    let LblRed = UILabel(frame: CGRect(x: 0, y: 55, width: 50, height: 20))
+    let LblBP = UILabel(frame: CGRect(x: 0, y: 55, width: 50, height: 20))
     let lblYellow = UILabel(frame: CGRect(x: 0, y: 75, width: 50, height: 20))
     let lblTemperature = UILabel(frame: CGRect(x: 0, y: 92, width: 30, height: 20))
     let lblTOFTitle = UILabel(frame: CGRect(x: 100, y: 10, width: 50, height: 20))
     let lblTOF = UILabel(frame: CGRect(x: 0, y: 112, width: 30, height: 20))
+    let lblRespiration_rate = UILabel(frame: CGRect(x: 0, y: 112, width: 30, height:20))
 
 
     var contentArray = [plotDataType]()
@@ -122,7 +124,7 @@ import OpenGLES
     var graphHostView = CPTGraphHostingView(frame:CGRect(x: UIScreen.main.bounds.width - 200, y: 100, width: 150, height: 60) )
     var DynamicView=UIView(frame: CGRect.zero)
     var blackView=UIView(frame: CGRect.zero)
-    var  gl_View=EAGLView(frame: CGRect(x: UIScreen.main.bounds.width - 200,y: 48,width: 150,height: 50))
+    var gl_View=EAGLView(frame: CGRect(x: UIScreen.main.bounds.width - 200,y: 48,width: 150,height: 50))
 
     var isPreOp = true
     var randomNum : Double = 1.0
@@ -132,30 +134,25 @@ import OpenGLES
     var caseType :NSMutableDictionary!
 
     // MARK: - Initialization
+
     override func viewDidLoad()
     {
         isPreOp=true
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        NotificationCenter.default.addObserver(self, selector: #selector(ScatterPlotController.showUpdatedOrders), name: NSNotification.Name(rawValue: "ordersUpdated notification"), object: nil)
+
     }
     
     override func viewDidAppear(_ animated : Bool)
     {
         super.viewDidAppear(animated)
         loadCases()
-        //Check The orders
-        //        let userDefaults : UserDefaults = UserDefaults.standard
-        //
-        //        if (userDefaults.object(forKey: "selectedOrders") != nil)
-        //        {
-        //            orders = UserDefaults.standard.stringArray(forKey: "selectedOrders")!
-        //            tableView.reloadData();
-        //        }
+       
         self.lblTitle.text="PRE-OP";
-        if((UserDefaults.standard.stringArray(forKey: "selectedOrders")) != nil)
+        if((UserDefaults.standard.stringArray(forKey: "existingOrders")) != nil)
         {
-            
-            orders = UserDefaults.standard.stringArray(forKey: "selectedOrders")!
+            orders = UserDefaults.standard.stringArray(forKey: "existingOrders")!
             tableView.reloadData();
         }
         
@@ -169,8 +166,9 @@ import OpenGLES
     func loadCases() {
         if let path = Bundle.main.path(forResource: "Cases", ofType: "plist") {
             caseDescriptors = NSMutableDictionary(contentsOfFile: path)
-            print(caseDescriptors);
+            //print(caseDescriptors);
             caseType = self.caseDescriptors["Pilot Scenario"]! as! NSMutableDictionary
+            print(caseType)
             
         }
     }
@@ -181,7 +179,6 @@ import OpenGLES
     @IBAction func quitClicked(_ sender: Any)
     {
 //        self.dismiss(animated: true, completion: nil)
-        
         
         let alertController = UIAlertController(title: "Transfer", message: "Do you want to quit?", preferredStyle: UIAlertControllerStyle.alert)
         let DestructiveAction = UIAlertAction(title: "No", style: UIAlertActionStyle.destructive) { (result : UIAlertAction) -> Void in
@@ -367,9 +364,10 @@ import OpenGLES
             self.ventMonitorView.frame = CGRect(x: self.view.frame.width-200 , y: 178, width: 200, height: 165)
             let OR = self.caseType["OR"]! as! NSDictionary
             self.lblTemperature.text = OR["Temperature"] as? String
-            self.LblRed.text=OR["BP"] as? String
+            self.LblBP.text=OR["BP"] as? String
             self.lblBlue.text=OR["Spo2"] as? String
             self.lblYellow.text="35"
+            self.lblRespirationRate.text="16"
             self.lblHeartRateGreen.text=OR["HR"] as? String
             self.view .addSubview(self.ventMonitorView)
             self.imgViewPatient.image = UIImage(named: ("patient male.png"))
@@ -447,7 +445,7 @@ import OpenGLES
             self.ventMonitorView.frame = CGRect(x: self.view.frame.width-200 , y: 178, width: 200, height: 165)
             let OR = self.caseType["OR"]! as! NSDictionary
             self.lblTemperature.text = OR["Temperature"] as? String
-            self.LblRed.text=OR["BP"] as? String
+            self.LblBP.text=OR["BP"] as? String
             self.lblBlue.text=OR["Spo2"] as? String
             self.lblYellow.text="35"
             self.lblHeartRateGreen.text=OR["HR"] as? String
@@ -464,8 +462,6 @@ import OpenGLES
         {
             
             isPreOp=true
-            
-
             let alertController = UIAlertController(title: "Transfer", message: "Do you want to transfer patient back to PRE-OP?", preferredStyle: UIAlertControllerStyle.alert)
             let DestructiveAction = UIAlertAction(title: "No", style: UIAlertActionStyle.destructive) { (result : UIAlertAction) -> Void in
                 //print("Destructive")
@@ -478,9 +474,10 @@ import OpenGLES
                 {
                     let preOp = self.caseType["Pre-op"]! as! NSDictionary
                     self.lblTemperature.text = preOp["Temperature"] as? String
-                    self.LblRed.text=preOp["BP"] as? String
+                    self.LblBP.text=preOp["BP"] as? String
                     self.lblBlue.text=preOp["Spo2"] as? String
                     self.lblYellow.text="35"
+                    self.lblRespirationRate.text="16"
                     self.lblHeartRateGreen.text=preOp["HR"] as? String
                     self.graphHostView.isHidden=true
                     self.gl_View.isHidden=true
@@ -572,15 +569,20 @@ import OpenGLES
             lblHeartRateGreen.font = lblHeartRateGreen.font.withSize(12)
             DynamicView.addSubview(lblHeartRateGreen)
             
-            LblRed.textAlignment = NSTextAlignment.left
-            LblRed.textColor=UIColor.red
-            LblRed.font = LblRed.font.withSize(12)
-            DynamicView.addSubview(LblRed)
+            LblBP.textAlignment = NSTextAlignment.left
+            LblBP.textColor=UIColor.red
+            LblBP.font = LblBP.font.withSize(12)
+            DynamicView.addSubview(LblBP)
             
             lblYellow.textAlignment = NSTextAlignment.left
             lblYellow.textColor=UIColor.yellow
-            lblYellow.font = LblRed.font.withSize(12)
+            lblYellow.font = lblYellow.font.withSize(12)
             DynamicView.addSubview(lblYellow)
+            
+            lblRespirationRate.textAlignment = NSTextAlignment.left
+            lblRespirationRate.textColor=UIColor.white
+            lblRespirationRate.font = lblRespirationRate.font.withSize(12)
+            DynamicView.addSubview(lblRespirationRate)
             
             lblBlue.textAlignment = NSTextAlignment.left
             lblBlue.textColor=UIColor.cyan
@@ -605,9 +607,10 @@ import OpenGLES
                
                 let preOp = caseType["Pre-op"]! as! NSDictionary
                 lblTemperature.text = preOp["Temperature"] as? String
-                LblRed.text=preOp["BP"] as? String
+                LblBP.text=preOp["BP"] as? String
                 lblBlue.text=preOp["Spo2"] as? String
                 lblYellow.text="35"
+                lblRespirationRate.text="16"
                 lblHeartRateGreen.text=preOp["HR"] as? String
                 lblTOF.text="1"
 
@@ -616,9 +619,10 @@ import OpenGLES
             {
                 let OR = caseType["OR"]! as! NSDictionary
                 lblTemperature.text = OR["Temperature"] as? String
-                LblRed.text=OR["BP"] as? String
+                LblBP.text=OR["BP"] as? String
                 lblBlue.text=OR["Spo2"] as? String
                 lblYellow.text="35"
+                lblRespirationRate.text="16"
                 lblHeartRateGreen.text=OR["HR"] as? String
                 lblTOF.text = "1"
 
@@ -627,6 +631,7 @@ import OpenGLES
             DynamicView.addSubview(lblTemperature)
             blackView.addSubview(lblTOFTitle)
             DynamicView.addSubview(lblTOF)
+            DynamicView.addSubview(lblRespirationRate)
             self.view.addSubview(DynamicView)
             self.view.addSubview(blackView)
             
@@ -734,14 +739,7 @@ import OpenGLES
             let dataPointRed: plotDataType = [.X: redX, .Y: redY]
             let dataPoint: plotDataType = [.X: x, .Y: y]
             let dataPointYellow: plotDataType = [.X: yellowX, .Y: yellowY]
-//            let c:String = String(format:"%.1f", y)
-//            let c1:String = String(format:"%.1f", yellowY)
-//            LblRed.text=c
-//            lblBlue.text=c
-//            lblYellow.text=c1
-//            lblHeartRateGreen.text=c
-//            print("x: ",x)
-//            print("y:",y)
+
             self.dataForPlot.append(dataPoint)
             self.dataForRedPlot.append(dataPointRed)
             self.dataForPlotYellow.append(dataPointYellow)
@@ -780,15 +778,7 @@ import OpenGLES
             }
             let dataPointYellow: plotDataType = [.X: yellowX, .Y: yellowY]
             let dataPointRed: plotDataType = [.X: redX, .Y: redY]
-//            let c:String = String(format:"%.1f", y)
-//            let c1:String = String(format:"%.1f", yellowY)
-//            LblRed.text=c
-//            lblBlue.text=c
-//            lblYellow.text=c1
-//            lblHeartRateGreen.text=c
-//            print("x: ",x)
-//            print("y:",y)
-            //print(r)
+
           
             dataForPlot.remove(at: Int(ind))
             dataForPlot.insert(dataPoint, at: Int(ind))
@@ -895,4 +885,101 @@ import OpenGLES
         cell.textLabel?.text = order
         return cell
     }
+    
+    // MARK: - Orders selected
+    func showUpdatedOrders()
+    {
+        if((UserDefaults.standard.stringArray(forKey: "selectedOrders")) != nil)
+        {
+            
+            orders = UserDefaults.standard.stringArray(forKey: "selectedOrders")!
+            tableView.reloadData();
+        }
+        
+        
+        for selectedOrder in orders {
+            let correctActionDict = caseType["Correct Actions"]! as! NSMutableDictionary
+             let InCorrectActionDict = caseType["Incorrect Actions"]! as! NSMutableDictionary
+            let TOF = "TOF"
+            let low = "Low"
+            let high = "High"
+            let HR = "HR"
+            let BP = "BP"
+            let respirationRate = "RR"
+
+
+            if(correctActionDict[selectedOrder] != nil)
+            {
+                //Correct
+                 print(" Correct Orders updated")
+                let selectedDrug = correctActionDict[selectedOrder]! as! NSMutableDictionary
+                
+                if(selectedDrug[TOF] != nil)
+                {
+                    if(((selectedDrug[TOF]! as? String)?.characters.count)!>0)
+                    {
+                        self.lblTOF.text = selectedDrug[TOF]! as? String
+                    }
+                }
+                if(selectedDrug[HR] != nil)
+                {
+                    if(((selectedDrug[HR]! as? String)?.characters.count)!>0)
+                    {
+                    self.lblHeartRateGreen.text = selectedDrug[HR]! as? String
+                    }
+                }
+                if(selectedDrug[BP] != nil)
+                {
+                    if(((selectedDrug[BP]! as? String)?.characters.count)!>0)
+                    {
+                    self.LblBP.text = selectedDrug[BP]! as? String
+                    }
+                }
+                
+              //  let bpvalue = (selectedDrug[high]! as! String).appending("/").appending(selectedDrug[low]! as! String)
+                
+              //  let respirationRate = selectedDrug[respirationRate]! as! String
+                
+            }
+            else
+            {
+                //Incorrect
+                let selectedDrug = InCorrectActionDict[selectedOrder]! as! NSMutableDictionary
+                if(selectedDrug[TOF] != nil)
+                {
+                    if(((selectedDrug[TOF]! as? String)?.characters.count)!>0)
+                    {
+                        self.lblTOF.text = selectedDrug[TOF]! as? String
+                    }
+                }
+                if(selectedDrug[HR] != nil)
+                {
+                    if(((selectedDrug[HR]! as? String)?.characters.count)!>0)
+                    {
+                        self.lblHeartRateGreen.text = selectedDrug[HR]! as? String
+                    }
+                }
+                if(selectedDrug[BP] != nil)
+                {
+                    if(((selectedDrug[BP]! as? String)?.characters.count)!>0)
+                    {
+                        self.LblBP.text = selectedDrug[BP]! as? String
+                    }
+                }
+                
+                //  let bpvalue = (selectedDrug[high]! as! String).appending("/").appending(selectedDrug[low]! as! String)
+                
+                //  let respirationRate = selectedDrug[respirationRate]! as! String
+                
+
+
+            }
+            
+            
+        }
+       
+    }
+
+    
+    
 }

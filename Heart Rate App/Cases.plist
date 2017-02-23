@@ -124,24 +124,22 @@
 			</dict>
 			<key>Neostigmine</key>
 			<dict>
+				<key>HR </key>
+				<string>-30</string>
 				<key>TOF</key>
 				<string>1</string>
 			</dict>
-			<key>HR </key>
-			<string>-30</string>
 			<key>Naloxone</key>
 			<dict>
+				<key>RR</key>
+				<string>+20</string>
+				<key>BP</key>
+				<string>+30</string>
+				<key>HR</key>
+				<string>+30</string>
 				<key>TOF</key>
 				<string>1</string>
 			</dict>
-			<key>HR</key>
-			<string>+30</string>
-			<key>BP</key>
-			<string>+30</string>
-			<key>RR</key>
-			<string>+30</string>
-			<key>BY</key>
-			<string>+20</string>
 			<key>Glycopyrrolate</key>
 			<dict>
 				<key>HR</key>
@@ -223,8 +221,6 @@
 &lt;string&gt;+20&lt;/string&gt;
 &lt;/plist&gt;
 =30</string>
-				<key>BY</key>
-				<string>+30</string>
 			</dict>
 			<key>Epinephrine</key>
 			<dict>

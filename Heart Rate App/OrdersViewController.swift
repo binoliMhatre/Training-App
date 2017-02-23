@@ -17,16 +17,15 @@ class OrdersViewController: UIViewController, UITableViewDelegate, UITableViewDa
     var selectedOrders = [String]()
     var existingOrders = [String]()
     
-    
+    //MARK: - View loading methods
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        if((UserDefaults.standard.stringArray(forKey: "selectedOrders")) != nil)
+        if((UserDefaults.standard.stringArray(forKey: "existingOrders")) != nil)
         {
-             existingOrders = UserDefaults.standard.stringArray(forKey: "selectedOrders")!
+             existingOrders = UserDefaults.standard.stringArray(forKey: "existingOrders")!
         }
-        
-        // Do any additional setup after loading the view, typically from a nib.
+       
     }
     
     
@@ -220,8 +219,6 @@ class OrdersViewController: UIViewController, UITableViewDelegate, UITableViewDa
 //                    existingOrders.append(selected)
 //                }
                 
-              
-                
                 if(selectedOrders.contains(selected))
                 {
                    cell!.accessoryType = .none
@@ -241,7 +238,7 @@ class OrdersViewController: UIViewController, UITableViewDelegate, UITableViewDa
         tblExpandable.reloadSections(IndexSet(integer: (indexPath as NSIndexPath).section), with: UITableViewRowAnimation.fade)
     }
     
-    
+  //MARK: -  Done button clicked
   
     @IBAction func doneBtnClicked(_ sender: AnyObject)
     {
@@ -251,7 +248,11 @@ class OrdersViewController: UIViewController, UITableViewDelegate, UITableViewDa
         {
             existingOrders.append(selectedOrders[index])
         }
-        UserDefaults.standard.set(existingOrders, forKey: "selectedOrders")
+        UserDefaults.standard.set(existingOrders, forKey: "existingOrders")
+        UserDefaults.standard.set(selectedOrders, forKey: "selectedOrders")
+            
+        NotificationCenter.default.post(name: Notification.Name(rawValue: "ordersUpdated notification"), object: self)
+
         }
         self.dismiss(animated: true, completion: nil)
     }

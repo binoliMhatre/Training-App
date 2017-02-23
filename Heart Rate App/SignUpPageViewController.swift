@@ -54,7 +54,6 @@ class SignUpPageViewController: UIViewController, UITextFieldDelegate {
                     displayMyAlertMessage(userMesssage: "All field are required");
                     
                     return;
-                    
                 }
         
         // Check if passwords match

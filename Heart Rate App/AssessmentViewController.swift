@@ -18,7 +18,6 @@ class AssessmentViewController: UIViewController, UITableViewDelegate, UITableVi
     @IBAction func doneClicked(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
 
-        
     }
     
     override func viewDidLoad() {
@@ -80,13 +79,10 @@ class AssessmentViewController: UIViewController, UITableViewDelegate, UITableVi
 
     }
     
-    
     func getCellDescriptorForIndexPath(_ indexPath: IndexPath) -> [String: AnyObject] {
         let indexOfVisibleRow = visibleRowsPerSection[(indexPath as NSIndexPath).section][(indexPath as NSIndexPath).row]
         let cellDescriptor = (cellDescriptors.object(at: (indexPath as NSIndexPath).section) as AnyObject).object(at: indexOfVisibleRow)as! [String: AnyObject]
 //        let cellDescriptor = cellDescriptors[indexPath.section][indexOfVisibleRow] as! [String: AnyObject]
-        
-
         
         return cellDescriptor
     }
