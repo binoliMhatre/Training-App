@@ -1,6 +1,8 @@
 
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class ViewController: UIViewController
 {
@@ -54,6 +56,20 @@ class ViewController: UIViewController
         let action = UIAlertAction(title: "Close", style: .default, handler: nil)
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
+        
+    }
+    @IBAction func Logout(sender: AnyObject){
+        if FIRAuth.auth()?.currentUser != nil{
+            do{
+                try FIRAuth.auth()?.signOut()
+                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "welcomepageview")
+                present(vc, animated: true, completion: nil)
+                
+            }catch let error as NSError{
+                print(error.localizedDescription)
+            }
+        }
+        
         
     }
     

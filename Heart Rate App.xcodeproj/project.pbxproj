@@ -50,6 +50,9 @@
 		3F62242E1CD3C129009902A3 /* AssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F62242D1CD3C129009902A3 /* AssessmentViewController.swift */; };
 		3F6224301CD3D582009902A3 /* Assessment.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F62242F1CD3D582009902A3 /* Assessment.plist */; };
 		3FA5669D1E7489C300AD853F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FA5669C1E7489C300AD853F /* GoogleService-Info.plist */; };
+		3FA566A11E748F7E00AD853F /* SignUpPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA566A01E748F7E00AD853F /* SignUpPageViewController.swift */; };
+		3FA566A31E748F8600AD853F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA566A21E748F8600AD853F /* LoginViewController.swift */; };
+		3FA566A51E749C7C00AD853F /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA566A41E749C7C00AD853F /* ResetPasswordViewController.swift */; };
 		6FBF085D1DEE51830025E38C /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF085B1DEE51830025E38C /* Lato-Bold.ttf */; };
 		6FBF085E1DEE51830025E38C /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF085C1DEE51830025E38C /* Lato-Regular.ttf */; };
 		C9459A161C6D18D100BF78D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9459A151C6D18D100BF78D5 /* AppDelegate.swift */; };
@@ -125,6 +128,9 @@
 		3F62242F1CD3D582009902A3 /* Assessment.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Assessment.plist; sourceTree = "<group>"; };
 		3F91A6681E735B2A00433C98 /* GenericKeychain1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = GenericKeychain1.entitlements; path = ../../GenericKeychain/GenericKeychain/App1/GenericKeychain1.entitlements; sourceTree = "<group>"; };
 		3FA5669C1E7489C300AD853F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FA566A01E748F7E00AD853F /* SignUpPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpPageViewController.swift; sourceTree = "<group>"; };
+		3FA566A21E748F8600AD853F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3FA566A41E749C7C00AD853F /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		6FBF085B1DEE51830025E38C /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		6FBF085C1DEE51830025E38C /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		957171D1EF2074FA25604777 /* Pods-Heart Rate App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heart Rate App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Heart Rate App/Pods-Heart Rate App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -325,6 +331,8 @@
 				2D0B636A1DEE574F009E9FD4 /* Images */,
 				6FBF085A1DEE51830025E38C /* Font */,
 				C9459A151C6D18D100BF78D5 /* AppDelegate.swift */,
+				3FA566A01E748F7E00AD853F /* SignUpPageViewController.swift */,
+				3FA566A21E748F8600AD853F /* LoginViewController.swift */,
 				C9459A171C6D18D100BF78D5 /* ViewController.swift */,
 				C9459BC91C6D222300BF78D5 /* ScatterPlotController.swift */,
 				3F6224211CCE9BA1009902A3 /* OrdersViewController.swift */,
@@ -335,6 +343,7 @@
 				3F6224291CCE9EA5009902A3 /* CustomCell.swift */,
 				2DE60CDA1DE533AD00412034 /* LevelViewController.swift */,
 				2DB1ACAE1DCD3E6F0047B1D0 /* SelectedCaseViewController.swift */,
+				3FA566A41E749C7C00AD853F /* ResetPasswordViewController.swift */,
 				C9459A191C6D18D100BF78D5 /* Main.storyboard */,
 				C9459A1E1C6D18D100BF78D5 /* LaunchScreen.storyboard */,
 				3F6224271CCE9C47009902A3 /* ValuePickerCell.xib */,
@@ -606,6 +615,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA566A31E748F8600AD853F /* LoginViewController.swift in Sources */,
 				3F6224221CCE9BA1009902A3 /* OrdersViewController.swift in Sources */,
 				2D493E281DE3822200EE8B1B /* CaseCell.swift in Sources */,
 				C9459A181C6D18D100BF78D5 /* ViewController.swift in Sources */,
@@ -614,8 +624,10 @@
 				C9459A161C6D18D100BF78D5 /* AppDelegate.swift in Sources */,
 				2DF1128B1D10576E00B81815 /* InfoCell.swift in Sources */,
 				2DB1ACAF1DCD3E6F0047B1D0 /* SelectedCaseViewController.swift in Sources */,
+				3FA566A11E748F7E00AD853F /* SignUpPageViewController.swift in Sources */,
 				2D16A74F1D1C223B00CF7B51 /* EAGLView.m in Sources */,
 				3F62242A1CCE9EA5009902A3 /* CustomCell.swift in Sources */,
+				3FA566A51E749C7C00AD853F /* ResetPasswordViewController.swift in Sources */,
 				2DE60CDB1DE533AD00412034 /* LevelViewController.swift in Sources */,
 				C9459BCA1C6D222300BF78D5 /* ScatterPlotController.swift in Sources */,
 			);
