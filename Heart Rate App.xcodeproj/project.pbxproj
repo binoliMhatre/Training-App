@@ -49,6 +49,7 @@
 		3F62242C1CCEA6D0009902A3 /* NormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F62242B1CCEA6D0009902A3 /* NormalCell.xib */; };
 		3F62242E1CD3C129009902A3 /* AssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F62242D1CD3C129009902A3 /* AssessmentViewController.swift */; };
 		3F6224301CD3D582009902A3 /* Assessment.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F62242F1CD3D582009902A3 /* Assessment.plist */; };
+		3FA5669D1E7489C300AD853F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FA5669C1E7489C300AD853F /* GoogleService-Info.plist */; };
 		6FBF085D1DEE51830025E38C /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF085B1DEE51830025E38C /* Lato-Bold.ttf */; };
 		6FBF085E1DEE51830025E38C /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF085C1DEE51830025E38C /* Lato-Regular.ttf */; };
 		C9459A161C6D18D100BF78D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9459A151C6D18D100BF78D5 /* AppDelegate.swift */; };
@@ -121,6 +122,7 @@
 		3F62242D1CD3C129009902A3 /* AssessmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssessmentViewController.swift; sourceTree = "<group>"; };
 		3F62242F1CD3D582009902A3 /* Assessment.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Assessment.plist; sourceTree = "<group>"; };
 		3F91A6681E735B2A00433C98 /* GenericKeychain1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = GenericKeychain1.entitlements; path = ../../GenericKeychain/GenericKeychain/App1/GenericKeychain1.entitlements; sourceTree = "<group>"; };
+		3FA5669C1E7489C300AD853F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6FBF085B1DEE51830025E38C /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		6FBF085C1DEE51830025E38C /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		C9459A121C6D18D100BF78D5 /* Heart Rate App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heart Rate App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -317,6 +319,7 @@
 				3F6224251CCE9C1F009902A3 /* Orders.plist */,
 				3F62242F1CD3D582009902A3 /* Assessment.plist */,
 				2DE74F811DC7E47F00B2631F /* Cases.plist */,
+				3FA5669C1E7489C300AD853F /* GoogleService-Info.plist */,
 				2DF112881D1054E400B81815 /* PatientData.plist */,
 				C9459A211C6D18D100BF78D5 /* Info.plist */,
 				C9459A791C6D195C00BF78D5 /* HeartRate-bridging-header.h */,
@@ -491,6 +494,7 @@
 				2D0B639D1DEE574F009E9FD4 /* Syringe.png in Resources */,
 				2D0B639C1DEE574F009E9FD4 /* Syringe & Droplet.png in Resources */,
 				2D0B63971DEE574F009E9FD4 /* Pediatrics.png in Resources */,
+				3FA5669D1E7489C300AD853F /* GoogleService-Info.plist in Resources */,
 				3F6224301CD3D582009902A3 /* Assessment.plist in Resources */,
 				2D0B63891DEE574F009E9FD4 /* dot.png in Resources */,
 				2D0B63A01DEE574F009E9FD4 /* Upward Arrow.png in Resources */,
