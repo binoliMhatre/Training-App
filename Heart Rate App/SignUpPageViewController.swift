@@ -66,11 +66,17 @@ class SignUpPageViewController: UIViewController, UITextFieldDelegate {
         }
         
         // Store data
-        UserDefaults.standard.set(userEmail, forKey:"userEmail");
-        UserDefaults.standard.set(userPassword, forKey:"userPassword");
-        UserDefaults.standard.synchronize();
+        //UserDefaults.standard.set(userEmail, forKey:"userEmail");
+        //UserDefaults.standard.set(userPassword, forKey:"userPassword");
+        //UserDefaults.standard.synchronize();
         
-        
+        do{
+            let passwordItem = KeychainPasswordItem(service: KeychainConfiguration.serviceName, account:    createusername!, accessGroup: KeychainConfiguration.accessGroup)
+            try passwordItem.savePassword(userPassword!)
+        }
+        catch{
+            fatalError("Error updating keychain - \(error)")
+        }
         
         // display alert message with confirmation
         let myAlert = UIAlertController(title:"Alert", message:" Registration is sucessful. Thank you!", preferredStyle: UIAlertControllerStyle.alert);
