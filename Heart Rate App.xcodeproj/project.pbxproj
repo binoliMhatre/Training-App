@@ -61,6 +61,7 @@
 		C9459BC41C6D1FED00BF78D5 /* CorePlot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9459B721C6D1E4900BF78D5 /* CorePlot.framework */; };
 		C9459BC51C6D1FED00BF78D5 /* CorePlot.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9459B721C6D1E4900BF78D5 /* CorePlot.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C9459BCA1C6D222300BF78D5 /* ScatterPlotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9459BC91C6D222300BF78D5 /* ScatterPlotController.swift */; };
+		F69C2B776D80D1FB0E56CFA0 /* Pods_Heart_Rate_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3419BD1A1FFEFEC24C386EB /* Pods_Heart_Rate_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -114,6 +115,7 @@
 		2DF112881D1054E400B81815 /* PatientData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PatientData.plist; sourceTree = "<group>"; };
 		2DF1128A1D10576E00B81815 /* InfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
 		2DF112971D145C3D00B81815 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3A3C88D9D370993D95457349 /* Pods-Heart Rate App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heart Rate App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Heart Rate App/Pods-Heart Rate App.release.xcconfig"; sourceTree = "<group>"; };
 		3F6224211CCE9BA1009902A3 /* OrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		3F6224251CCE9C1F009902A3 /* Orders.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Orders.plist; sourceTree = "<group>"; };
 		3F6224271CCE9C47009902A3 /* ValuePickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValuePickerCell.xib; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		3FA5669C1E7489C300AD853F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6FBF085B1DEE51830025E38C /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		6FBF085C1DEE51830025E38C /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		957171D1EF2074FA25604777 /* Pods-Heart Rate App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heart Rate App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Heart Rate App/Pods-Heart Rate App.debug.xcconfig"; sourceTree = "<group>"; };
 		C9459A121C6D18D100BF78D5 /* Heart Rate App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heart Rate App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9459A151C6D18D100BF78D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9459A171C6D18D100BF78D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -215,6 +218,7 @@
 		C9459BC21C6D1E9400BF78D5 /* NSDecimalNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDecimalNumberExtensions.h; sourceTree = "<group>"; };
 		C9459BC31C6D1E9400BF78D5 /* NSNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumberExtensions.h; sourceTree = "<group>"; };
 		C9459BC91C6D222300BF78D5 /* ScatterPlotController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScatterPlotController.swift; sourceTree = "<group>"; };
+		D3419BD1A1FFEFEC24C386EB /* Pods_Heart_Rate_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heart_Rate_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +229,7 @@
 				2DF112981D145C3D00B81815 /* OpenGLES.framework in Frameworks */,
 				C9459BC41C6D1FED00BF78D5 /* CorePlot.framework in Frameworks */,
 				C9459A7B1C6D19C300BF78D5 /* QuartzCore.framework in Frameworks */,
+				F69C2B776D80D1FB0E56CFA0 /* Pods_Heart_Rate_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +278,23 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
+		892D29A3D41C02B4F9695C7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				957171D1EF2074FA25604777 /* Pods-Heart Rate App.debug.xcconfig */,
+				3A3C88D9D370993D95457349 /* Pods-Heart Rate App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1AFA81D78A6C78B859E0D43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3419BD1A1FFEFEC24C386EB /* Pods_Heart_Rate_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C9459A091C6D18D100BF78D5 = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +306,8 @@
 				C9459A271C6D18DA00BF78D5 /* CorePlot */,
 				C9459A141C6D18D100BF78D5 /* Heart Rate App */,
 				C9459A131C6D18D100BF78D5 /* Products */,
+				892D29A3D41C02B4F9695C7B /* Pods */,
+				C1AFA81D78A6C78B859E0D43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -429,10 +453,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9459A241C6D18D100BF78D5 /* Build configuration list for PBXNativeTarget "Heart Rate App" */;
 			buildPhases = (
+				3B432DC86A96A589CBB6636D /* [CP] Check Pods Manifest.lock */,
 				C9459A0E1C6D18D100BF78D5 /* Sources */,
 				C9459A0F1C6D18D100BF78D5 /* Frameworks */,
 				C9459A101C6D18D100BF78D5 /* Resources */,
 				C9459BC61C6D1FED00BF78D5 /* Embed Frameworks */,
+				DE9997D72496BD4FB2F48B55 /* [CP] Embed Pods Frameworks */,
+				0DAF72B089C6A93263689B8F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -525,6 +552,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DAF72B089C6A93263689B8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Heart Rate App/Pods-Heart Rate App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B432DC86A96A589CBB6636D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE9997D72496BD4FB2F48B55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Heart Rate App/Pods-Heart Rate App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9459A0E1C6D18D100BF78D5 /* Sources */ = {
@@ -658,6 +733,7 @@
 		};
 		C9459A251C6D18D100BF78D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 957171D1EF2074FA25604777 /* Pods-Heart Rate App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
@@ -686,6 +762,7 @@
 		};
 		C9459A261C6D18D100BF78D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3C88D9D370993D95457349 /* Pods-Heart Rate App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
