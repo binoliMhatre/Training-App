@@ -11,5 +11,6 @@
 
 #import "CorePlot-CocoaTouch.h"
 #import "EAGLView.h"
+#import "Firebase.h"
 
 #endif /* HeartRate_bridging_header_h */
