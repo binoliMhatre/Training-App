@@ -49,8 +49,15 @@
 		3F62242C1CCEA6D0009902A3 /* NormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F62242B1CCEA6D0009902A3 /* NormalCell.xib */; };
 		3F62242E1CD3C129009902A3 /* AssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F62242D1CD3C129009902A3 /* AssessmentViewController.swift */; };
 		3F6224301CD3D582009902A3 /* Assessment.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F62242F1CD3D582009902A3 /* Assessment.plist */; };
-		3F9B05B91E7C4F9C0068242E /* Firebase in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B05B81E7C4F9C0068242E /* Firebase */; };
-		3F9B05BE1E7C53E40068242E /* Firebase in Resources */ = {isa = PBXBuildFile; fileRef = 3F9B05BD1E7C53E40068242E /* Firebase */; };
+		3F9B05C31E7F09D30068242E /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B05C21E7F09D30068242E /* FirebaseAnalytics.framework */; };
+		3F9B05C51E7F0A1B0068242E /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B05C41E7F0A1B0068242E /* FirebaseCore.framework */; };
+		3F9B05C71E7F0A230068242E /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B05C61E7F0A230068242E /* FirebaseInstanceID.framework */; };
+		3F9B05C91E7F0A260068242E /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B05C81E7F0A260068242E /* GoogleToolboxForMac.framework */; };
+		3F9B05CB1E7F0A6E0068242E /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B05CA1E7F0A6E0068242E /* FirebaseAuth.framework */; };
+		3F9B05CD1E7F0A740068242E /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B05CC1E7F0A740068242E /* GTMSessionFetcher.framework */; };
+		3F9B05CF1E7F0A850068242E /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B05CE1E7F0A850068242E /* FirebaseMessaging.framework */; };
+		3F9B05D11E7F0A8B0068242E /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B05D01E7F0A8B0068242E /* Protobuf.framework */; };
+		3F9B05D31E7F0A940068242E /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B05D21E7F0A940068242E /* FirebaseRemoteConfig.framework */; };
 		3FA5669D1E7489C300AD853F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FA5669C1E7489C300AD853F /* GoogleService-Info.plist */; };
 		3FA566A11E748F7E00AD853F /* SignUpPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA566A01E748F7E00AD853F /* SignUpPageViewController.swift */; };
 		3FA566A31E748F8600AD853F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA566A21E748F8600AD853F /* LoginViewController.swift */; };
@@ -127,10 +134,17 @@
 		3F62242D1CD3C129009902A3 /* AssessmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssessmentViewController.swift; sourceTree = "<group>"; };
 		3F62242F1CD3D582009902A3 /* Assessment.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Assessment.plist; sourceTree = "<group>"; };
 		3F91A6681E735B2A00433C98 /* GenericKeychain1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = GenericKeychain1.entitlements; path = ../../GenericKeychain/GenericKeychain/App1/GenericKeychain1.entitlements; sourceTree = "<group>"; };
-		3F9B05B81E7C4F9C0068242E /* Firebase */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Firebase; sourceTree = "<group>"; };
-		3F9B05BD1E7C53E40068242E /* Firebase */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Firebase; sourceTree = "<group>"; };
-		3F9B05C01E7C56F10068242E /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Firebase/Firebase.h; sourceTree = "<group>"; };
-		3F9B05C11E7C56FC0068242E /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Firebase/module.modulemap; sourceTree = "<group>"; };
+		3F9B05C21E7F09D30068242E /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		3F9B05C41E7F0A1B0068242E /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		3F9B05C61E7F0A230068242E /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		3F9B05C81E7F0A260068242E /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		3F9B05CA1E7F0A6E0068242E /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = "<group>"; };
+		3F9B05CC1E7F0A740068242E /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		3F9B05CE1E7F0A850068242E /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = "<group>"; };
+		3F9B05D01E7F0A8B0068242E /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		3F9B05D21E7F0A940068242E /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseRemoteConfig.framework; sourceTree = "<group>"; };
+		3F9B05D41E7F0B790068242E /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		3F9B05D51E7F0BEF0068242E /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		3FA5669C1E7489C300AD853F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3FA566A01E748F7E00AD853F /* SignUpPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpPageViewController.swift; sourceTree = "<group>"; };
 		3FA566A21E748F8600AD853F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -234,8 +248,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F9B05B91E7C4F9C0068242E /* Firebase in Frameworks */,
+				3F9B05C91E7F0A260068242E /* GoogleToolboxForMac.framework in Frameworks */,
+				3F9B05CD1E7F0A740068242E /* GTMSessionFetcher.framework in Frameworks */,
+				3F9B05C31E7F09D30068242E /* FirebaseAnalytics.framework in Frameworks */,
+				3F9B05C71E7F0A230068242E /* FirebaseInstanceID.framework in Frameworks */,
+				3F9B05D11E7F0A8B0068242E /* Protobuf.framework in Frameworks */,
+				3F9B05C51E7F0A1B0068242E /* FirebaseCore.framework in Frameworks */,
 				2DF112981D145C3D00B81815 /* OpenGLES.framework in Frameworks */,
+				3F9B05CF1E7F0A850068242E /* FirebaseMessaging.framework in Frameworks */,
+				3F9B05CB1E7F0A6E0068242E /* FirebaseAuth.framework in Frameworks */,
+				3F9B05D31E7F0A940068242E /* FirebaseRemoteConfig.framework in Frameworks */,
 				C9459BC41C6D1FED00BF78D5 /* CorePlot.framework in Frameworks */,
 				C9459A7B1C6D19C300BF78D5 /* QuartzCore.framework in Frameworks */,
 			);
@@ -286,16 +308,6 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
-		C1AFA81D78A6C78B859E0D43 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3F9B05C11E7C56FC0068242E /* module.modulemap */,
-				3F9B05C01E7C56F10068242E /* Firebase.h */,
-				3F9B05B81E7C4F9C0068242E /* Firebase */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C9459A091C6D18D100BF78D5 = {
 			isa = PBXGroup;
 			children = (
@@ -307,7 +319,17 @@
 				C9459A271C6D18DA00BF78D5 /* CorePlot */,
 				C9459A141C6D18D100BF78D5 /* Heart Rate App */,
 				C9459A131C6D18D100BF78D5 /* Products */,
-				C1AFA81D78A6C78B859E0D43 /* Frameworks */,
+				3F9B05D51E7F0BEF0068242E /* Firebase.h */,
+				3F9B05D41E7F0B790068242E /* module.modulemap */,
+				3F9B05D21E7F0A940068242E /* FirebaseRemoteConfig.framework */,
+				3F9B05D01E7F0A8B0068242E /* Protobuf.framework */,
+				3F9B05CE1E7F0A850068242E /* FirebaseMessaging.framework */,
+				3F9B05CC1E7F0A740068242E /* GTMSessionFetcher.framework */,
+				3F9B05CA1E7F0A6E0068242E /* FirebaseAuth.framework */,
+				3F9B05C81E7F0A260068242E /* GoogleToolboxForMac.framework */,
+				3F9B05C61E7F0A230068242E /* FirebaseInstanceID.framework */,
+				3F9B05C41E7F0A1B0068242E /* FirebaseCore.framework */,
+				3F9B05C21E7F09D30068242E /* FirebaseAnalytics.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -350,7 +372,6 @@
 				2DF112881D1054E400B81815 /* PatientData.plist */,
 				C9459A211C6D18D100BF78D5 /* Info.plist */,
 				C9459A791C6D195C00BF78D5 /* HeartRate-bridging-header.h */,
-				3F9B05BD1E7C53E40068242E /* Firebase */,
 				3F91A6681E735B2A00433C98 /* GenericKeychain1.entitlements */,
 			);
 			path = "Heart Rate App";
@@ -519,7 +540,6 @@
 				6FBF085D1DEE51830025E38C /* Lato-Bold.ttf in Resources */,
 				2D0B63901DEE574F009E9FD4 /* Logo.png in Resources */,
 				2D0B639E1DEE574F009E9FD4 /* Trauma.png in Resources */,
-				3F9B05BE1E7C53E40068242E /* Firebase in Resources */,
 				2D0B639D1DEE574F009E9FD4 /* Syringe.png in Resources */,
 				2D0B639C1DEE574F009E9FD4 /* Syringe & Droplet.png in Resources */,
 				2D0B63971DEE574F009E9FD4 /* Pediatrics.png in Resources */,
@@ -706,7 +726,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					/Users/student/Downloads/Firebase/Firebase.h,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Heart-Rate-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -734,7 +757,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					/Users/student/Downloads/Firebase/Firebase.h,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Heart-Rate-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
